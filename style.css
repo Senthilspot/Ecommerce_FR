@@ -1,0 +1,11 @@
+.card {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.card-img-top {
+  height: 320px;
+}
+.card:hover {
+  transform: scale(103%);
+  z-index: 1;
+}
